@@ -77,6 +77,14 @@ a{
   justify-content: center;
   align-items: center;
 }
+.sign-up{
+  background-color: #3882F6;
+  border:2px solid #3882F6;
+  color: #F9FAF8;
+  border-radius: 5px;
+  width:100px;
+  height:25px;
+}
 /*End Intro section code */
 
 
