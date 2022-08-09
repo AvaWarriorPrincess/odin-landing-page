@@ -25,6 +25,8 @@ a{
 }
 
 .intro{
+  display:flex;
+  
 }
 
 .information{
