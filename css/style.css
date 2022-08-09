@@ -129,10 +129,45 @@ a{
 /*End Quote section code*/
 
 
+/*Call to action section code*/
 .call-to-action{
   display:flex;
-  background-color: #3882F6;
+  padding:64px;
+  justify-content: center;
 }
+.call-box{
+  border: 2px solid #3882F6;
+  border-radius: 10px;
+  background-color: #3882F6;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.call-text, .call-title{
+  color: #F9FAF8;
+}
+.call-title{
+  margin-bottom: 0;
+}
+.call-text{
+  margin-top: 8px;
+}
+.call-button{
+  background-color: #3882f6;
+  border:2px solid #F9FAF8;
+  color: #F9FAF8;
+  border-radius: 5px;
+  width:100px;
+  height:25px;
+}
+/*End Call to action section code */
+
+
+
+
+
+
 
 .footer{
   display:flex;
