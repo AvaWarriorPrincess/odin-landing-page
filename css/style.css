@@ -1,0 +1,29 @@
+body{
+  display:flex;
+  flex-direction: column;
+}
+
+.header, .intro, .footer{
+  background-color: #1F2937;
+}
+
+.header{
+}
+
+.intro{
+}
+
+.information{
+
+}
+
+.testimonial{
+  background-color: #E5E7EB;
+}
+
+.call-to-action{
+  background-color: #3882F6;
+}
+
+.footer{
+}
