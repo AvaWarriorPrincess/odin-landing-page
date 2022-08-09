@@ -38,6 +38,7 @@ a{
 .intro{
   display:flex;
   justify-content: center;
+  padding: 64px 0 64px 0;
 }
 .hero1{
   font-size: 48px;
@@ -55,10 +56,11 @@ a{
 .intro-left, .intro-right{
   width: 400px;
 }
-.intro-img{
-  width:400px;
-  height:250px;
-  background-color:grey;
+.intro-right{
+  background-color: grey;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 /*End Intro section code */
 
@@ -79,8 +81,6 @@ a{
   height:100px;
 }
 /* End Info section code */
-
-
 
 
 .testimonial{
