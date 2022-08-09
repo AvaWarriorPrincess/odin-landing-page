@@ -33,6 +33,7 @@ a{
   flex-direction: column;
 }
 
+
 /*Intro section code*/
 .intro{
   display:flex;
@@ -62,11 +63,15 @@ a{
 /*End Intro section code */
 
 
+
 /*Info section code */
 .information{
   display:flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
+}
+.info-pics-container{
+  display:flex;
 }
 .info-pic{
   border:blue;
@@ -74,6 +79,8 @@ a{
   height:100px;
 }
 /* End Info section code */
+
+
 
 
 .testimonial{
