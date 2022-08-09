@@ -65,6 +65,8 @@ a{
 /*Info section code */
 .information{
   display:flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .info-pic{
   border:blue;
