@@ -15,14 +15,23 @@ body{
 a{
   text-decoration: none;
   color:#E5E7EB;
+  margin-left:16px;
+  text-align: center;
 }
 .header{
   display:flex;
-  justify-content: space-between;
+  justify-content: center;
+  padding:16px;
 }
 .logo{
   font-size: 24px;
   color:#F9FAF8;
+}
+.header-links, .logo{
+  width:400px;
+}
+.header-links{
+  text-align: end;
 }
 /*End Header section code*/
 
@@ -31,6 +40,7 @@ a{
 .content{
   display:flex;
   flex-direction: column;
+  flex:1;
 }
 
 
@@ -101,7 +111,7 @@ a{
   text-align: end;
 }
 .quote-box{
-  width:700px;
+  width:600px;
 }
 /*End Quote section code*/
 
