@@ -161,6 +161,19 @@ a{
   width:100px;
   height:25px;
 }
+.call-left{
+  margin-left:32px;
+  display:flex;
+  flex-direction: column;
+  flex:2;
+}
+.call-right
+{
+  display:flex;
+  flex:1;
+  align-items: center;
+  justify-content: center;
+}
 /*End Call to action section code */
 
 
