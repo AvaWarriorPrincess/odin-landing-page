@@ -26,7 +26,6 @@ a{
 
 .intro{
   display:flex;
-  
 }
 
 .information{
@@ -42,4 +41,10 @@ a{
 }
 
 .footer{
+}
+
+.info-pic{
+  border:blue;
+  width:100px;
+  height:100px;
 }
